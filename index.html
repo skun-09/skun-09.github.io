@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 
-<html lang="ja"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ja"> <head>
+
+<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>My Works</title>
 
-<style> * { box-sizing: border-box; } body { margin: 0; font-family: "Yu Gothic", "Segoe UI", sans-serif; background: #f5f9ff; color: #333; } /* ヘッダー */ header { padding: 90px 20px; text-align: center; background: linear-gradient(135deg, #74c8ff, #9b8cff); color: white; } header h1 { font-size: 60px; margin: 0; letter-spacing: 3px; } header p { margin-top: 20px; font-size: 18px; } /* メイン */ main { max-width: 1100px; margin: auto; padding: 60px 20px; } h2 { text-align: center; font-size: 35px; margin-bottom: 40px; } /* 作品カード */ .works { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; } .card { background: white; border-radius: 25px; padding: 30px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition: 0.3s; } .card:hover { transform: translateY(-10px); box-shadow: 0 20px 35px rgba(0,0,0,0.15); } .card h3 { margin-top:0; font-size: 26px; color:#4b7cff; } .card p { color:#666; line-height:1.8; } /* ボタン */ .button { display:inline-block; margin-top:20px; padding:12px 25px; border-radius:30px; background:#4b7cff; color:white; text-decoration:none; transition:0.2s; } .button:hover { background:#345edb; } /* フッター */ footer { text-align:center; padding:30px; color:#888; } </style>
+<style> * { box-sizing:border-box; } body { margin:0; font-family: "Yu Gothic", "Segoe UI", sans-serif; background:#f2fbff; color:#333; } /* トップ */ header { padding:100px 20px; text-align:center; color:white; background: linear-gradient( 135deg, #56ccf2, #2f80ed ); } header h1 { font-size:60px; margin:0; } header p { font-size:18px; margin-top:20px; } /* メイン */ main { max-width:1100px; margin:auto; padding:60px 20px; } section { margin-bottom:70px; } h2 { text-align:center; font-size:36px; color:#2f80ed; margin-bottom:35px; } /* プロフィール */ .profile { background:white; padding:35px; border-radius:25px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); line-height:2; } /* カード */ .cards { display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:30px; } .card { background:white; padding:30px; border-radius:25px; box-shadow: 0 10px 25px rgba(0,0,0,0.08); transition:0.3s; } .card:hover { transform:translateY(-8px); box-shadow: 0 20px 35px rgba(0,0,0,0.15); } .card h3 { color:#2f80ed; font-size:25px; margin-top:0; } .card p { color:#666; line-height:1.8; } /* ボタン */ .button { display:inline-block; margin-top:15px; padding:10px 25px; background:#2f80ed; color:white; border-radius:30px; text-decoration:none; } .button:hover { background:#1c5fb8; } /* フッター */ footer { text-align:center; padding:30px; color:#888; } </style>
 
 </head>
 
+
+
+
 <body>
+
+
+
 
 <header>
 
 <h1>MY WORKS</h1>
 
-<p> ゲーム・ツールなど制作した作品を紹介するポータルサイト </p>
+<p> ゲーム制作・プログラミング作品を紹介するポータルサイト </p>
 
 </header>
 
@@ -23,33 +31,40 @@
 
 <main>
 
-<h2>作品一覧</h2>
-
-<div class="works">
 
 
 
+<section>
+
+<h2>Profile</h2>
+
+<div class="profile">
+
+<p> ゲーム制作やプログラミングを中心に活動しています。 <br> UnityやC++などを使って、ゲームやツール制作に挑戦しています。 </p>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+<h2>Games</h2>
+
+<div class="cards">
 
 <div class="card">
 
 <h3>MiniEdu</h3>
 
-<p> 遊びながら学べるミニゲーム集。 計算などを楽しく練習できます。 </p>
+<p> 遊びながら学べるミニゲーム集。 学習を楽しくするゲームを目指して制作しています。 </p>
 
-<a class="button" href="#"> 詳しく見る </a>
-
-</div>
-
-
-
-
-<div class="card">
-
-<h3>Easy Save Manager</h3>
-
-<p> Unity向けの簡単セーブシステム。 ゲーム制作をサポートするツールです。 </p>
-
-<a class="button" href="#"> 詳しく見る </a>
+<a class="button" href="#"> 詳細を見る </a>
 
 </div>
 
@@ -60,14 +75,71 @@
 
 <h3>Coming Soon</h3>
 
-<p> 現在制作中の新しい作品。 公開までお楽しみに！ </p>
+<p> 現在制作中のゲーム。 公開までお楽しみに！ </p>
 
 </div>
 
+</div>
+
+</section>
 
 
+
+
+
+
+
+<section>
+
+<h2>Tools</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Easy Save Manager</h3>
+
+<p> Unity向けのセーブシステム。 ゲーム制作をサポートするツールです。 </p>
+
+<a class="button" href="#"> 詳細を見る </a>
 
 </div>
+
+</div>
+
+</section>
+
+
+
+
+<section>
+
+<h2>Links</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>BOOTH</h3>
+
+<p> 作品や素材を公開しています。 </p>
+
+</div>
+
+<div class="card">
+
+<h3>GitHub</h3>
+
+<p> 制作したプログラムを公開しています。 </p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
 
 </main>
 
